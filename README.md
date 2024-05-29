@@ -11,7 +11,17 @@ Federated learning (FL) is an emerging communication-efficient and collaborative
 
 The `datasets` directory contains all the datasets used in this project. Below is a description of python scripts written to process each dataset:
 
-- `load_data.py`: Utility script for loading and preprocessing the all the datasets.
+- `load_data.py`: Utility script for loading all the datasets.
+- `load_adult_data.py`: Script for pre-processing and loading different distributions of Adult dataset.
+- `load_bank_data.py`: Script for pre-processing and loading different distributions of Bank dataset.
+- `load_default_data.py`: Script for pre-processing and loading different distributions of Default dataset.
+- `load_law_data.py`: Script for pre-processing and loading different distributions of Law School dataset.
+
+### Utility Scripts
+- `find_potential_outcomes_utilities.py`: Script for finding potential outcomes.
+- `find_disc_score.py`: Script for computing discriminations scores (statistical parity, equal opportuinity, FACE).
+- 'test_local_and_server': Script for testing local learners and global server.
+
 
 ### Fed-FUEL main scripts
 The following scripts constitute the complete methodology of Fed-FUEL
